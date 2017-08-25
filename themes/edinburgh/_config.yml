@@ -1,0 +1,6 @@
+# Google Analytics Tracking ID
+google_analytics:
+
+# Default portfolio post
+default_cover_image: images/model1.jpg
+default_post_title: Portfolio Item
