@@ -58,4 +58,4 @@ typings/
 .env
 
 # hexo files
-db.json
+.DS_store
