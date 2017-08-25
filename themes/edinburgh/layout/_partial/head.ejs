@@ -15,6 +15,21 @@
   <!--Favicon-->
   <link rel="icon" href="favicon/favicon.ico">
 
+  <!-- Google firebase -->
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+  <script>
+  // Initialize Firebase
+  var config = {
+      apiKey: "AIzaSyD9oEH6lykXNJ3MOSTvrPmNoGbAJhY5Ugs",
+      authDomain: "mysupreme-8878.firebaseapp.com",
+      databaseURL: "https://mysupreme-8878.firebaseio.com",
+      projectId: "mysupreme-8878",
+      storageBucket: "mysupreme-8878.appspot.com",
+      messagingSenderId: "685330502298"
+  };
+  firebase.initializeApp(config);
+  </script>
+
   <!--Description-->
   <% if (page.description){ %>
       <meta name="description" content="<%= page.description %>">
@@ -46,4 +61,5 @@
 
   <!-- Google Analytics -->
   <%- partial('google-analytics') %>
+
 </head>
