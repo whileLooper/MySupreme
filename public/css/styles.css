@@ -69,7 +69,7 @@ h1, h2, h3 {
 }
 
 .navbar {
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 .nav-item {
@@ -173,7 +173,7 @@ h1, h2, h3 {
 .sup { 
   color: #fff; 
   background: red; 
-  padding: 7px 8px; 
+  padding: 5px 5px; 
   text-decoration: none;
   width : 92px;
   margin : auto;
