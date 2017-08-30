@@ -1,6 +1,7 @@
 ---
 title: Supreme Leak News
 cover_image: images/supremeleaknews.jpg
+categories: news
 ---
 
 
