@@ -249,6 +249,8 @@
     {### POST BODY ###}
     {#################}
     <div class="post-body{% if theme.han %} han-init-context{% endif %}{% if post.direction && post.direction.toLowerCase() === 'rtl' %} rtl{% endif %}" itemprop="articleBody">
+      
+      <img class="img-fluid" src="{{ post.images }}" alt="{{ post.title || "Untitled" }}">
 
       {# Gallery support #}
       {% if post.photos and post.photos.length %}

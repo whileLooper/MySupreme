@@ -47,5 +47,6 @@
     {% set font_host = font_config.host | default('//fonts.googleapis.com') %}
     <link href="{{ font_host }}/css?family={{ font_families }}" rel="stylesheet" type="text/css">
   {% endif %}
-
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 {% endif %}
