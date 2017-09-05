@@ -1,8 +1,9 @@
-<% if (item.cover_image){ %>
+{% if (item.cover_image) %}
   <div class="col-12 mb-4">
     <img class="img-fluid project-img" src="<%- config.root %><%- item.cover_image %>" alt="<%- item.title || "Untitled" %>">
   </div>
-<% } %>
+{% endif %}
+
 <div class="col-12 pt-lg-3 mb-4 px-4 portfolio-content">
-  <%- item.content %>
+  {{item.content}}
 </div>
