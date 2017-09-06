@@ -4,3 +4,21 @@ google_analytics: UA-64802678-3
 # Default portfolio post
 default_cover_image: images/default.png
 default_post_title: Portfolio Item
+
+# Facebook SDK Support.
+# https://github.com/iissnan/hexo-theme-next/pull/410
+facebook_sdk:
+  enable: true
+  app_id: 323201804810004
+  fb_admin:     #<user_id>
+  like_button:  true
+  webmaster:    true
+
+# Facebook comments plugin
+# This plugin depends on Facebook SDK.
+# If facebook_sdk.enable is false, Facebook comments plugin is unavailable.
+facebook_comments_plugin:
+  enable: true
+  num_of_posts: 10  # min posts num is 1
+  width: 100%       # default width is 550px
+  scheme: light     # default scheme is light (light or dark)

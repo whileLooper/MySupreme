@@ -9,3 +9,12 @@
     {{item.content}}
   </div>
 </div>
+
+<div class="offset-1 col-10 fb-comments"
+      data-href="{{ item.permalink }}"
+      data-numposts="{{ theme.facebook_comments_plugin.num_of_posts }}"
+      data-width="{{ theme.facebook_comments_plugin.width }}"
+      data-colorscheme="{{ theme.facebook_comments_plugin.scheme }}">
+</div>
+
+{% include '../_third-party/analytics/facebook-sdk.swig' %}
