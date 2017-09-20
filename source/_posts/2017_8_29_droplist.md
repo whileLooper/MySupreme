@@ -1,7 +1,7 @@
 ---
 title: 2017 8-31 Droplist
 cover_image: images/droplist/8-31-droplist.png
-grid: col-md-6
+grid: col-md-4
 categories: droplist
 ---
 
